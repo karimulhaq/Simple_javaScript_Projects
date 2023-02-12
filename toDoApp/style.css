@@ -1,0 +1,44 @@
+.header {
+    font-size: 3rem;
+    color: green;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.body {
+    background-color: lightblue;
+}
+
+.labelCl {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-left: 40%;
+    display: inline-block;
+    margin-top: 4%;
+}
+
+.labelTasks {
+    text-align: center;
+    position: relative;
+    margin-left: 40%;
+    display: inline-block;
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.inputCl {
+    position: relative;
+    margin-left: 40%;
+    padding-right: 5%;
+    margin-top: 1%;
+
+}
+
+.list__Items {
+    margin-left: 40%;
+
+}
