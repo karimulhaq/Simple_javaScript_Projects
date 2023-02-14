@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense_Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="body">
+    <h1 class="header">This is Expense_Tracker</h1>
+    <div>
+        <label for="text" class="label">Add the Expense</label>
+        <br>
+        <label for="name" class="nameLable">Name:</label>
+        <input type="text" class="nameInput" id="nameJs" placeholder="name of expense">
+        <br>
+        <label for="date" class="dateLable">Date:</label>
+        <input type="date" class="dateInput" id="dateJs">
+        <label for="amount" class="amountLable">Amount:</label>
+        <input type="number" class=" amountInput" id="amountJs" placeholder="amount of expense">
+        <button class="btnAdd" id="btnAddJs">Add Expense</button>
+
+
+    </div>
+    <!-- table for expense showing -->
+    <div>
+        <!-- <label for="expense" class="dateLable">Your Expenses</label> -->
+        <table id="tableJs" class="table">
+            <tr>
+                <th class="th">Name</th>
+                <th class="th">Date</th>
+                <th class="th">Amount</th>
+            </tr>
+
+            <!-- the tr and td must be created in javaScript for data  -->
+
+        </table>
+    </div>
+
+</body>
+
+</html>
