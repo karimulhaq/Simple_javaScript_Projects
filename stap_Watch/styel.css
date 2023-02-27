@@ -1,0 +1,29 @@
+.header {
+    font-size: 3rem;
+    margin-left: 40%;
+    font-weight: bold;
+    /* color: red; */
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.watch {
+    margin-left: 40%;
+    margin-top: 7%;
+    font-size: 40px;
+}
+
+
+button {
+    font-size: 30px;
+    width: 15%;
+    margin-top: 6%;
+
+}
+
+.divStyle {
+    margin-left: 28%;
+
+}
