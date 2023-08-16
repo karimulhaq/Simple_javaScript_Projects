@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SignUpForm</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form>
+          <h1>Sign Up Form</h1>
+          <hr />
+          <div class="signUp-input">
+            <label>Full Name</label>
+            <input
+              type="text"
+              placeholder="enter your full name"
+              class="fullName"
+              onkeyup="checkFullName()"
+              name="Full Name"
+              required
+            />
+            <span class="fullName-error"></span>
+          </div>
+
+          <div class="signUp-input">
+            <label>Phone No</label>
+            <input
+              type="text"
+              placeholder="enter your phone no"
+              class="phoneNo"
+              onkeyup="checkPhoneNo()"
+              name="Phone No"
+            />
+            <span class="phoneNo_error"></span>
+          </div>
+
+          <div class="signUp-input">
+            <label>Email</label>
+            <input
+              type="text"
+              placeholder="enter your email add"
+              class="userEamil"
+              onkeyup="checkEmail()"
+              name="Eamil add"
+            />
+            <span class="userEamil_error"></span>
+          </div>
+
+          <div class="signUp-input">
+            <label>Password</label>
+            <input
+              type="password"
+              placeholder="enter password"
+              class="userPassword"
+              onkeyup="checkPassword()"
+              name="Password"
+            />
+            <span class="userPassword-error"></span>
+          </div>
+          <div class="signUp-input">
+            <label>Confirm Pwd</label>
+            <input
+              type="password"
+              placeholder="confirm password"
+              class="confirmPasswrod"
+              onkeyup="checkConfrimPassword()"
+              name="Confirm Password"
+            />
+            <span class="confirmPassword-error"></span>
+          </div>
+          <button
+            type=" submit"
+            class="submit-btn"
+            onclick="return checkForm()"
+          >
+            Submit
+          </button>
+          <div><span class="submitBtn-error"></span></div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
